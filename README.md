@@ -1,5 +1,5 @@
 # mac-scrcpy-app
-Automator scripts that allow to start `scrcpy` tool
+Automator scripts that allow to start [`scrcpy`](https://github.com/Genymobile/scrcpy) tool 
 
 Download the latest [Android.Screen.Sharing.dmg](https://github.com/madlymad/mac-scrcpy-app/releases/latest/download/Android.Screen.Sharing.dmg)
 
