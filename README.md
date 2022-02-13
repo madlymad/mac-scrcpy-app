@@ -3,7 +3,7 @@ Launcher application for [`scrcpy`](https://github.com/Genymobile/scrcpy) tool w
 
 ## Features
 - Display UI selector for devices to select one or more
-- Selector is skipped for a single device connected to adb
+- Selector is skipped for a single device connected to adb, contributed by @grantland
 
 ## Releases
 https://github.com/madlymad/mac-scrcpy-app/releases
