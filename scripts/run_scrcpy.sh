@@ -10,6 +10,7 @@ fi
 
 for f in "$@"
 do
-	echo "$f"
-	/usr/local/bin/scrcpy -s $f &
+  d=$(echo $f | cut -d ' ' -f1)
+  echo "Start scrpy on '$d'"
+  /usr/local/bin/scrcpy -s $d &
 done
