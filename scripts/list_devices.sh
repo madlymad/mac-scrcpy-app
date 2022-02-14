@@ -1,3 +1,4 @@
+#!/bin/bash
 export ANDROID_SDK_HOME=~/Library/Android/sdk
 export PATH=${PATH}:${ANDROID_SDK_HOME}/platform-tools
 
