@@ -5,11 +5,17 @@ Launcher application for [`scrcpy`](https://github.com/Genymobile/scrcpy) tool w
 - Display UI selector for devices to select one or more
 - Selector is skipped for a single device connected to adb, contributed by @grantland
 
+## Install
+### Prerequisites
+Installation of [`scrcpy`](https://github.com/Genymobile/scrcpy)
+```
+brew install scrcpy
+```
+If you are new to that you can follow detailed instructions at https://github.com/Genymobile/scrcpy#macos
+### DMG
+Download the latest [Android.Screen.Sharing.dmg](https://github.com/madlymad/mac-scrcpy-app/releases/latest/download/Android.Screen.Sharing.dmg) and install it as most applications in mac.
+### Manual
+You can create your own application for the provided code at [`scripts`](https://github.com/madlymad/mac-scrcpy-app/tree/main/scripts) folder by following the logic and details provided at my medium article [Mirror your Android screen to MacOS](https://mandostam.medium.com/mirror-your-android-screen-to-macos-b72804d652bd). Code provided at the article is not in sync with latest versions.
+
 ## Releases
 https://github.com/madlymad/mac-scrcpy-app/releases
-
-## Download
-Download the latest [Android.Screen.Sharing.dmg](https://github.com/madlymad/mac-scrcpy-app/releases/latest/download/Android.Screen.Sharing.dmg)
-
-## Details
-You can read more about the code logic of [`mac-scrcpy-app`](https://github.com/madlymad/mac-scrcpy-app) at [Mirror your Android screen to MacOS](https://mandostam.medium.com/mirror-your-android-screen-to-macos-b72804d652bd)
