@@ -6,7 +6,7 @@ Launcher application for [`scrcpy`](https://github.com/Genymobile/scrcpy) tool w
 - Selector is skipped for a single device connected to adb, contributed by @grantland
 
 ## Install
-### Prerequisites
+### Requirements
 Installation of [`scrcpy`](https://github.com/Genymobile/scrcpy)
 ```
 brew install scrcpy
