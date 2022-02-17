@@ -6,6 +6,8 @@ Launcher application for [`scrcpy`](https://github.com/Genymobile/scrcpy) tool w
 - Selector is skipped for a single device connected to adb, contributed by **@[grantland](https://github.com/grantland)**
 
 ## Install
+1. Install screen copy tool (see [requirements](#requirements))
+2. Use the [DMG](#dmg) or manually setup the code via automator (see [manual](#manual))
 ### Requirements
 Installation of [`scrcpy`](https://github.com/Genymobile/scrcpy)
 ```
