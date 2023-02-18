@@ -1,6 +1,8 @@
 #!/bin/bash
+# Android sdk and platform tools path
 export ANDROID_SDK_HOME=~/Library/Android/sdk
 export PATH=${PATH}:${ANDROID_SDK_HOME}/platform-tools
+# Path of scrcpy
 export PATH=${PATH}:/usr/local/bin/
 
 if [[ "$1" == "false" ]]
