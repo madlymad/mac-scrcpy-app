@@ -3,7 +3,7 @@
 export ANDROID_SDK_HOME=~/Library/Android/sdk
 export PATH=${PATH}:${ANDROID_SDK_HOME}/platform-tools
 # Path of scrcpy
-export PATH=${PATH}:/usr/local/bin/
+export PATH=${PATH}:/usr/local/bin/:/opt/homebrew/bin/
 
 if [[ "$1" == "false" ]]
 then
