@@ -8,7 +8,8 @@ export PATH=${PATH}:${ANDROID_SDK_HOME}/platform-tools
 # adb start-server
 
 # Get device list with manufacturer and model info
-device_list=$(adb devices | grep -w 'device' | cut -f1 | xargs -I X sh -c 'c=$(adb -s X shell getprop ro.product.manufacturer); m=$(adb -s X shell getprop ro.product.model); s=$(echo X); echo "$s ($c $m)"')
+device_list=$(adb devices | grep -w 'device' | cut -f1 | xargs -I X sh -c \
+  'c=$(adb -s X shell getprop ro.product.manufacturer); m=$(adb -s X shell getprop ro.product.model); s=$(echo X); echo "$s ($c $m)"')
 
 # Check if device_list is empty
 if [ -z "$device_list" ]; then
