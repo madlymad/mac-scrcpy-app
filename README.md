@@ -4,6 +4,7 @@ Launcher application for [`scrcpy`](https://github.com/Genymobile/scrcpy) tool w
 ## Features
 - Display UI selector for devices to select one or more
 - Selector is skipped for a single device connected to adb, contributed by **@[grantland](https://github.com/grantland)**
+- Display error dialog if no device found
 
 ## Install
 1. Install screen copy tool (see [requirements](#requirements))
